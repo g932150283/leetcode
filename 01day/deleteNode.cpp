@@ -18,7 +18,7 @@ class Solution {
         }
 
         if(flag == 0){
-            head
+            head;
         }
 
         return head;
@@ -28,7 +28,9 @@ class Solution {
             /* code */
         }
 
-        if(head->next != NULL)
+        if(head->next != NULL){
+
+        }
         
     }
 };
