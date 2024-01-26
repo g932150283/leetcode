@@ -3,35 +3,20 @@
 class Solution {
   public:
     ListNode *deleteNode(ListNode *head, int val) {
-        // 如果空，返回
-        if(head == NULL){
-            return;
+        if(head->val == val){
+            return head->next;
         }
-        int flag = 0;
-        while (head->val != val)
-        {
-            head = head->next;
-            if(head->next == NULL){
-                flag = 1;
-                //到底了
-            }
+        
+        ListNode* p = head;
+        while (p->next != nullptr && p->next->val != val){
+            p = p->next;
         }
 
-        if(flag == 0){
-            head;
+        if(p->next != nullptr){
+            p->next = p->next->next;
         }
 
         return head;
-        
-        {
-            head = head->next;
-            /* code */
-        }
-
-        if(head->next != NULL){
-
-        }
-        
     }
 };
 
