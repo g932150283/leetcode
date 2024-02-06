@@ -19,7 +19,8 @@ public:
         return (T == nullptr) ? -1 : T->height;
     }
 
-    // 左旋转操作，用于左-左型情况
+    // 右旋旋转操作，用于左-左型情况
+    // （1）节点的左孩子替代此节点位置 （2）左孩子的右子树变为该节点的左子树 （3）节点本身变为左孩子的右子树
     static AvlNode* R_Rotate(AvlNode* K2) {
         AvlNode* K1 = K2->lchild;
         K2->lchild = K1->rchild;
@@ -31,7 +32,8 @@ public:
         return K1;
     }
 
-    // 右旋转操作，用于右-右型情况
+    // 左旋旋转操作，用于右-右型情况
+    // （1）节点的右孩子替代此节点位置 （2）右孩子的左子树变为该节点的右子树 （3）节点本身变为右孩子的左子树
     static AvlNode* L_Rotate(AvlNode* K2) {
         AvlNode* K1 = K2->rchild;
         K2->rchild = K1->lchild;
@@ -45,14 +47,14 @@ public:
 
     // 左-右型旋转操作
     static AvlNode* R_L_Rotate(AvlNode* K3) {
-        K3->lchild = R_Rotate(K3->lchild);
-        return L_Rotate(K3);
+        K3->lchild = R_Rotate(K3->lchild); // 右旋
+        return L_Rotate(K3); // 左旋
     }
 
     // 右-左型旋转操作
     static AvlNode* L_R_Rotate(AvlNode* K3) {
-        K3->rchild = L_Rotate(K3->rchild);
-        return R_Rotate(K3);
+        K3->rchild = L_Rotate(K3->rchild); // 左旋
+        return R_Rotate(K3); // 右旋
     }
 
     // 插入操作
