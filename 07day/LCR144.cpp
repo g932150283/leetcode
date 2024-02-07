@@ -29,7 +29,66 @@ public:
     }
 };
 
+TreeNode *vectorToTree(vector<int> list) {
+    TreeNode *root = new TreeNode(list[0]);
+    queue<TreeNode *> que;
+    que.emplace(root);
+    int i = 1;
+    while (!que.empty()) {
+        TreeNode *node = que.front();
+        que.pop();
+        if (list[i] != INT_MAX) {
+            node->left = new TreeNode(list[i]);
+            que.emplace(node->left);
+        }
+        i++;
+        if (list[i] != INT_MAX) {
+            node->right = new TreeNode(list[i]);
+            que.emplace(node->right);
+        }
+        i++;
+    }
+    return root;
+}
+
+void printTreeLevelOrder(TreeNode* root) {
+    if (!root) return;
+
+    queue<TreeNode*> q;
+    q.push(root);
+
+    while (!q.empty()) {
+        int levelSize = q.size();
+
+        for (int i = 0; i < levelSize; ++i) {
+            TreeNode* node = q.front();
+            q.pop();
+
+            // Add appropriate number of spaces before printing the value
+            for (int j = 0; j < levelSize - i - 1; ++j)
+                cout << " ";
+
+            cout << node->val;
+
+            // Add spaces after the value for better alignment
+            for (int j = 0; j < levelSize; ++j)
+                cout << " ";
+
+            if (node->left) q.push(node->left);
+            if (node->right) q.push(node->right);
+        }
+
+        cout << endl;
+    }
+}
+
 int main(){
+
+    TreeNode *root = vectorToTree(
+        vector<int>{4, 2, 7, 1, 3, 6, 9, INT_MAX, INT_MAX, INT_MAX, INT_MAX, INT_MAX, INT_MAX, INT_MAX, INT_MAX});
+    Solution *slt = new Solution();
+    TreeNode *res = slt->mirrorTree(root);
+    printTreeLevelOrder(res);
 
     
     return 0;  
