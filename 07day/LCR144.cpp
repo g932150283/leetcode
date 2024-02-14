@@ -15,7 +15,7 @@ struct TreeNode {
 class Solution {
 public:
     TreeNode* mirrorTree(TreeNode* root) {
-        if (!root || (!root->left && !root->right)) {
+        if(!root || (!root->left && !root->right)){
             return root;
         }
 
@@ -26,6 +26,7 @@ public:
         root->right = left;
 
         return root;
+
     }
 };
 
@@ -51,8 +52,10 @@ TreeNode *vectorToTree(vector<int> list) {
     return root;
 }
 
+
 void printTreeLevelOrder(TreeNode* root) {
-    if (!root) return;
+    if (root == nullptr)
+        return;
 
     queue<TreeNode*> q;
     q.push(root);
@@ -63,24 +66,18 @@ void printTreeLevelOrder(TreeNode* root) {
         for (int i = 0; i < levelSize; ++i) {
             TreeNode* node = q.front();
             q.pop();
+            cout << node->val << " ";
 
-            // Add appropriate number of spaces before printing the value
-            for (int j = 0; j < levelSize - i - 1; ++j)
-                cout << " ";
-
-            cout << node->val;
-
-            // Add spaces after the value for better alignment
-            for (int j = 0; j < levelSize; ++j)
-                cout << " ";
-
-            if (node->left) q.push(node->left);
-            if (node->right) q.push(node->right);
+            if (node->left)
+                q.push(node->left);
+            if (node->right)
+                q.push(node->right);
         }
 
         cout << endl;
     }
 }
+
 
 int main(){
 
