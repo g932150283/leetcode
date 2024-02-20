@@ -19,6 +19,7 @@ class Solution {
 public:
     TreeNode* deduceTree(vector<int>& preorder, vector<int>& inorder) {
         this->preorder = preorder;
+        // 中序遍历转换为map
         for(int i = 0; i < inorder.size(); i++)
             hmap[inorder[i]] = i;
         return recur(0, 0, inorder.size() - 1);
@@ -26,13 +27,23 @@ public:
 
     vector<int> preorder;
     unordered_map<int, int> hmap;
+    /**
+     * @brief 递归建立二叉树
+     * 
+     * @param root 根节点在前序遍历中的位置
+     * @param left 中序遍历左边界
+     * @param right 中序遍历右边界
+     * @return TreeNode* 
+     */
     TreeNode* recur(int root, int left, int right) { 
-        if(left > right) return nullptr;                        // 递归终止
-        TreeNode* node = new TreeNode(preorder[root]);          // 建立根节点
-        int i = hmap[preorder[root]];                           // 划分根节点、左子树、右子树
-        node->left = recur(root + 1, left, i - 1);              // 开启左子树递归
-        node->right = recur(root + i - left + 1, i + 1, right); // 开启右子树递归
-        return node;                                            // 回溯返回根节点
+        if(left > right){
+            return nullptr;
+        }
+        TreeNode* node = new TreeNode(preorder[root]);  // 建立根结点，前序的位置
+        int i = hmap[preorder[root]];                   // 获取根节点在中序遍历中的位置
+        node->left = recur(root + 1, left, i - 1);
+        node->right = recur(root + 1 + i - left, i + 1, right);
+        return node;
     }
     // 明天继续看
 
