@@ -16,7 +16,7 @@ public:
         int dig = 1;
         int res = 0;
 
-        while (cur || high)
+        while (!cur || !high)
         {
             if(cur == 0){
                 res = res + high * dig;
