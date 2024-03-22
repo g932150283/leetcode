@@ -20,11 +20,11 @@ private:
 
         for(int i = startIndex; i < s.size(); i++){
             if(isIP(s, startIndex, i)){
-                s.insert(s.begin() + i + 1 , '.');
+                // s.insert(s.begin() + i + 1 , '.');
                 pointNum++;
                 backtracking(s, i + 2, pointNum);   
                 pointNum--;                         
-                s.erase(s.begin() + i + 1);
+                // s.erase(s.begin() + i + 1);
 
             }else{
                 break;
