@@ -17,7 +17,7 @@ struct TreeNode
 class Solution {
 public:
     int countNodes(TreeNode* root) {
-    if(root == nullptr){
+        if(root == nullptr){
             return 0;
         }
         int left = countNodes(root->left);
