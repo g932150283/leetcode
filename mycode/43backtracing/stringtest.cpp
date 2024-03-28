@@ -16,5 +16,12 @@ int main(){
     cout << nu << endl;
     cout << (nu == n) << endl;
 
+
+    cout << "========================" << endl;
+
+    vector<string> str = {".Q..","...Q","Q...","..Q."};
+    cout << str[0][1] << endl;
+    cout << endl;
+
     return 0;
 }
