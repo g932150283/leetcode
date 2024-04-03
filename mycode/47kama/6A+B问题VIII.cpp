@@ -4,12 +4,12 @@ using namespace std;
 
 int main()
 {
-        int n, cnt, a;
-        while (cin >> n)
+    int n, cnt, a;
+    while (cin >> n)
+    {
+        while (n--)
         {
-            while (n--)
-            {
-                cin >> cnt;
+            cin >> cnt;
             int sum = 0;
             while (cnt--)
             {
@@ -17,21 +17,19 @@ int main()
                 sum += a;
                 /* code */
             }
-            if(n == 0){
+            if (n == 0)
+            {
                 cout << sum << endl;
-            }else{
+            }
+            else
+            {
                 cout << sum << endl;
                 cout << endl;
             }
-            }
-            
-            
-
-            
-            
-            /* code */
         }
-    
+
+        /* code */
+    }
 
     return 0;
 }
