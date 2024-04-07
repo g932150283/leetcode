@@ -4,22 +4,22 @@ using namespace std;
 
 class Solution {
     int res;
-    int dir[4][2] = {0,1,1,0,-1,0,0,-1};
+    int dir[4][2] = {-1, 0, 0, -1, 1, 0, 0, 1};
     void dfs(vector<vector<int>>& grid, int x, int y){
         grid[x][y] = 0;
         res++;
         for(int i = 0; i < 4; i++){
             int nextx = x + dir[i][0];
             int nexty = y + dir[i][1];
-            if(nextx < 0 || nextx >= grid.size() || nexty < 0 || nexty >= grid.size()){
+            if(nextx < 0 || nextx >= grid.size() || nexty < 0 || nexty >= grid[0].size()){
                 continue;
             }
+            
             if(grid[nextx][nexty] == 0){
                 continue;
             }
             dfs(grid, nextx, nexty);
         }
-        return;
     }
 public:
     int numEnclaves(vector<vector<int>>& grid) {
