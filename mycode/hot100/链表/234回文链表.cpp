@@ -47,21 +47,7 @@ public:
             }
         }
         
-        while (tail->next != nullptr)
-        {
-            tail = tail->next;
-            /* code */
-        }
-        while (pre != tail)
-        {
-            if(pre->val == tail->val){
-                pre = pre->next;
-                tail = tail->next;
-            }else{
-                return false;
-            }
-            /* code */
-        }
+        
         return true;
         
         
