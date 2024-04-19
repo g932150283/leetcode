@@ -26,7 +26,7 @@ public:
             }
             else
             {
-                vector<int> v = res[i - 1];
+                vector<int> v = res[i - 2];
                 vector<int> path(i, 1);
                 for(int j = 1; j <= i - 2; j++){
                     path[j] = v[j - 1] + v[j];
