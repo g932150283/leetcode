@@ -15,40 +15,47 @@ struct ListNode
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
-        ListNode* pre = head;
-        ListNode* tail = head;
-        int len = 0;
-        while (head != nullptr)
-        {
-            head = head->next;
-            len++;
-            /* code */
-        }
-        int end, start;
-        if(len % 2 == 1){
-            end = len / 2;
-            start = len / 2 + 2;
-        }else{
-            end = len / 2;
-            start = len / 2 + 1;
-        }
-        stack<int> s;
-        for(int i = 1; i <= end; i++){
-            s.push(pre->val);
-            pre = pre->next;
-        }
-        for(int i = start; i <= len; i++){
-            if(s.top() == pre->val){
-                s.pop();
-                pre = pre->next;
-            }else{
+        // ListNode* cur = head;
+        // ListNode* h1 = new ListNode(0);
+        // while (cur != nullptr)
+        // {
+        //     ListNode* node = new ListNode(cur->val);
+        //     node->next = h1->next;
+        //     h1->next = node;
+        //     cur = cur->next;
+        //     /* code */
+        // }
 
-                return false;
-            }
-        }
+        // h1 = h1->next;
+        // while (head != nullptr)
+        // {
+        //     if(h1->val == head->val){
+        //         h1 = h1->next;
+        //         head = head->next;
+        //     }else{
+        //         return false;
+        //     }
+        //     /* code */
+        // }
+        // return true;
+        // vector<int> res;
+        // while (head != nullptr)
+        // {
+        //     res.push_back(head->val);
+        //     head = head->next;
+        //     /* code */
+        // }
+        // for(int i = 0, j = res.size() - 1; i < j; i++, j--){
+        //     if(res[i] != res[j]){
+        //         return false;
+        //     }
+        // }
+        // return true;
+
         
         
-        return true;
+        
+        
         
         
     }
