@@ -13,6 +13,32 @@ struct ListNode
 
 
 class Solution {
+    ListNode* endOfFirstHalf(ListNode* head){
+        ListNode* fast = head;
+        ListNode* slow = head;
+        while (fast->next != nullptr && fast->next->next != nullptr)
+        {
+            slow = slow->next;
+            fast = fast->next->next;
+            /* code */
+        }
+        return slow;
+    }
+
+    ListNode* reverseList(ListNode* head){
+        ListNode* cur = head;
+        ListNode* pre = nullptr;
+        while (cur != nullptr)
+        {
+            ListNode* tmp = cur->next;
+            cur->next = pre;
+            pre = cur;
+            cur = tmp;
+            /* code */
+        }
+        return pre;
+        
+    }
 public:
     bool isPalindrome(ListNode* head) {
         // ListNode* cur = head;
@@ -53,6 +79,27 @@ public:
         // return true;
 
         
+        if(head == nullptr){
+            return true;
+        }
+
+        // slow->next 是后半段的开始
+        ListNode* firstHalfEnd = endOfFirstHalf(head);
+        ListNode* secodeBegin = reverseList(firstHalfEnd->next);
+
+        ListNode* l1 = head;
+        ListNode* l2 = secodeBegin;
+        while (l2 != nullptr)
+        {
+            if(l1->val != l2->val){
+                return false;
+            }
+            l1 = l1->next;
+            l2 = l2->next;
+            /* code */
+        }
+        firstHalfEnd->next = reverseList(secodeBegin);
+        return true;
         
         
         
