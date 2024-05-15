@@ -18,13 +18,19 @@ public:
         static Singleton value;
         return value;
     }
+
+    void printAddress() const {
+        std::cout << "The address of this object is: " << this << std::endl;
+    }
 };
 
 int main(){
 
     Singleton& s1 = Singleton::getInstance();
     cout << &s1 << endl;
+    s1.printAddress();
     Singleton& s3 = Singleton::getInstance();
+    s3.printAddress();
     cout << &s3 << endl;
 
     return 0;
