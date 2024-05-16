@@ -14,23 +14,26 @@ struct ListNode
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-        ListNode* h1 = headA;
-        ListNode* h2 = headB;
-        while (h1 != h2)
+        ListNode* l1 = headA;
+        ListNode* l2 = headB;
+
+        while (l1 != l2)
         {
-            if(h1 == nullptr){
-                h1 = headB;
+            if(l1 == nullptr){
+                l1 = headB;
             }else{
-                h1 = h1->next;
+                l1 = l1->next;
             }
-            if(h2 == nullptr){
-                h2 = headA;
+            if(l2 == nullptr){
+                l2 = headA;
             }else{
-                h2 = h2->next;
+                l2 = l2->next;
             }
             /* code */
         }
-        return h1;
+
+        return l1;
+        
         
     }
 };
