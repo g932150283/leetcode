@@ -15,14 +15,14 @@ struct TreeNode
 
 
 class Solution {
-    bool isValid(TreeNode* root, long long lower, long long upper){
+    bool isValid(TreeNode* root, long l, long r){
         if(root == nullptr){
             return true;
         }
-        if(root->val <= lower || root->val >= upper){
+        if(root->val >= r || root->val <= l){
             return false;
         }
-        return isValid(root->right, root->val, upper) && isValid(root->left, lower, root->val);
+        return isValid(root->left, l, root->val) && isValid(root->right, root->val, r);
     }
 public:
     bool isValidBST(TreeNode* root) {

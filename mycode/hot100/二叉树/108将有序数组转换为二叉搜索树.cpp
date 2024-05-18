@@ -15,14 +15,14 @@ struct TreeNode
 
 
 class Solution {
-    TreeNode* helper(vector<int>& nums, int left, int right){
-        if(left > right){
+    TreeNode* createTree(vector<int>& nums, int l, int r){
+        if(l > r){
             return nullptr;
         }
-        int mid = (left + right) / 2;
+        int mid = (l + r) / 2;
         TreeNode* root = new TreeNode(nums[mid]);
-        root->left = helper(nums, left, mid - 1);
-        root->right = helper(nums, mid + 1, right);
+        root->left = createTree(nums, l, mid - 1);
+        root->right = createTree(nums, mid + 1, r);
         return root;
     }
 public:
@@ -30,7 +30,6 @@ public:
         if(nums.size() == 0){
             return nullptr;
         }
-        return helper(nums, 0, nums.size() - 1);
-
+        return createTree(nums, 0, nums.size() - 1);
     }
 };
