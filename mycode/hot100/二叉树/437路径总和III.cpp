@@ -30,7 +30,7 @@ class Solution {
     // 前缀和
     unordered_map<long long, int> prefix;
     int res = 0;
-    void dfs(TreeNode* root, int sum, int cur_sum){
+    void dfs(TreeNode* root, int sum, long long cur_sum){
         if(root == nullptr){
             return;
         }
