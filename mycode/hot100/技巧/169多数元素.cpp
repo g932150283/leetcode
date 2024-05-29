@@ -2,21 +2,22 @@
 
 using namespace std;
 
+
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
-        unordered_map<int, int> umap;
+        int veto = 0;
+        int tmp = 0;
         for(int i = 0; i < nums.size(); i++){
-            umap[nums[i]]++;
-        }
-        int res = 0;
-        int num = -1;
-        for(auto i : umap){
-            if(i.second > res){
-                res = i.second;
-                num = i.first;
+            if(veto == 0){
+                tmp = nums[i];
+                veto++;
+            }else if(tmp == nums[i]){
+                veto++;
+            }else{
+                veto--;
             }
         }
-        return num;
+        return tmp;
     }
 };
