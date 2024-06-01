@@ -8,20 +8,33 @@ public:
         if(nums.size() == 1){
             return;
         }
-        // 指向第一个零
-        int cur = -1;
-        // 指向最后一个0后面
+
+        // 第一个0的位置
+        int zero = -1;
+
         for(int i = 0; i < nums.size(); i++){
             if(nums[i] != 0){
-                if(cur > -1){
-                    swap(nums[i], nums[cur]);
-                    cur++;
+                if(zero >= 0){
+                    swap(nums[i], nums[zero]);
+                    zero++;
                 }
-            }else if(cur < 0){
-                cur = i;
+            }else{
+                if(zero < 0){
+                    zero = i;
+                }
             }
+            // if(nums[i] == 0){
+            //     if(zero < 0){
+            //         zero = i;
+            //     }
+            // }else{
+            //     if(zero >= 0){
+            //         swap(nums[i], nums[zero]);
+            //         zero++;
+            //     }
+                
+            // }
         }
-        
         
 
 
