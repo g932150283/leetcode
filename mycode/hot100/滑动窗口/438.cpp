@@ -50,7 +50,7 @@ public:
         {
             char ch = s[right];
             right++;
-            if (need[ch] > 0)
+            if (need.count(ch))
             {
                 window[ch]++;
                 if (window[ch] == need[ch])
@@ -60,13 +60,13 @@ public:
             }
             while (right - left >= t.size())
             {
-                if (valid == t.size())
+                if (valid == need.size())
                 {
                     res.push_back(left);
                 }
                 char cha = s[left];
                 left++;
-                if (need[cha] > 0)
+                if (need.count(cha))
                 {
                     if (window[cha] == need[cha])
                     {
