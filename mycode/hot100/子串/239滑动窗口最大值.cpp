@@ -5,24 +5,28 @@ using namespace std;
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
-        vector<int> ans;
-        deque<int> q; // 双端队列
-        for (int i = 0; i < nums.size(); i++) {
-            // 1. 入
-            while (!q.empty() && nums[q.back()] <= nums[i]) {
-                q.pop_back(); // 维护 q 的单调性
+        // 入 保持单调性，从左到右递减
+        // 存的为下标
+        // 出 当前下标-队首元素下标 >= k 队首元素出队
+        // 加入答案 当前下标 >= k - 1
+        vector<int> res;
+        deque<int> q;
+        for(int i = 0; i < nums.size(); i++){
+            // ru
+            while (!q.empty() && nums[q.back()] <= nums[i]){
+                /* code */
+                q.pop_back();
             }
-            q.push_back(i); // 入队
-            // 2. 出
-            if (i - q.front() >= k) { // 队首已经离开窗口了
+            q.push_back(i);
+            // chu
+            if(i - q.front() >= k){
                 q.pop_front();
             }
-            // 3. 记录答案
-            if (i >= k - 1) {
-                // 由于队首到队尾单调递减，所以窗口最大值就是队首
-                ans.push_back(nums[q.front()]);
+            // jiadaan
+            if(i >= k - 1){
+                res.push_back(nums[q.front()]);
             }
         }
-        return ans;
+        return res;
     }
-};
+};  
