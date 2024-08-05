@@ -17,7 +17,20 @@ class Solution {
     // ListNode* left;
     // ListNode* right;
     // bool res = true;
-    ListNode* reverse(ListNode* a, ListNode* b){
+    ListNode* reverse(ListNode* a){
+        ListNode *cur, *nxt, *pre;
+        cur = a;
+        nxt = a;
+        pre = nullptr;
+        while (cur)
+        {
+            nxt = cur->next;
+            cur->next = pre;
+            pre = cur;
+            cur = nxt;
+            /* code */
+        }
+        return pre;
         
     }
 public:
@@ -26,6 +39,32 @@ public:
         // left = head;
         // traverse(head);
         // return res;
+        ListNode *fast, *slow;
+        fast = head;
+        slow = head;
+        while (fast != nullptr && fast->next != nullptr)
+        {
+            fast = fast->next->next;
+            slow = slow->next;
+            /* code */
+        }
+        if(fast != nullptr){
+            slow = slow->next;
+        }
+        ListNode* begin = reverse(slow);
+        // bool res = true;
+        while (begin)
+        {
+            if(begin->val != head->val){
+                return false;
+            }
+            begin = begin->next;
+            head = head->next;
+            /* code */
+        }
+        return true;
+        
+        
     }
     // void traverse(ListNode* node){
     //     if(node == nullptr){
