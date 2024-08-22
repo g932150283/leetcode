@@ -22,8 +22,8 @@ class Solution {
         int index = inIndex[m_val];
         int len = index - lp;
         TreeNode* root = new TreeNode(m_val);
-        root->left = build(preorder, lp + 1, lp + len, inorder, li, li + len);
-        root->right = build(preorder, lp + len + 1, rp, inorder, li + len + 1, ri);
+        root->left = build(preorder, lp + 1, lp + len, inorder, li, index - 1);
+        root->right = build(preorder, lp + len + 1, rp, inorder, index + 1, ri);
         return root;
     }
 public:
