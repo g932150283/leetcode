@@ -1,0 +1,1000 @@
+ 1011  g++ 62flyweight.cpp 
+ 1012  ./a.out 
+ 1013  g++ 62flyweight.cpp 
+ 1014  ./a.out 
+ 1015  g++ 63classlist.cpp 
+ 1016  ./a.out 
+ 1017  g++ 64dynamiccast.cpp 
+ 1018  ./a.out 
+ 1019  g++ 67coredump.cpp 
+ 1020  g++ 67coredump.cpp -g -o 67coredump
+ 1021  ./67coredump 
+ 1022  gdb 67coredump
+ 1023  g++ 01.cpp 
+ 1024  ./a.out 
+ 1025  g++ 01.cpp 
+ 1026  ./a.out 
+ 1027  g++ 01.cpp 
+ 1028  ./a.out 
+ 1029  g++ 01.cpp 
+ 1030  ./a.out 
+ 1031  git add .
+ 1032  git commit -m "arrary-sort"
+ 1033  git push -u origin 
+ 1034  g++ -v
+ 1035  g++ struct.cpp 
+ 1036  ./
+ 1037  ./a.out 
+ 1038  ./
+ 1039  g++ struct.cpp 
+ 1040  ./a.out 
+ 1041  g++ struct.cpp 
+ 1042  ./a.out 
+ 1043  g++ struct.cpp 
+ 1044  ./a.out 
+ 1045  g++ struct.cpp 
+ 1046  ./a.out 
+ 1047  g++ struct.cpp 
+ 1048  ./a.out 
+ 1049  git add .
+ 1050  git commit -m "array-medium"
+ 1051  git push -u origin 
+ 1052  git add .
+ 1053  git commit -m "array-medium"
+ 1054  git push -u origin 
+ 1055  git add .
+ 1056  git commit -m "matrix-medium-2"
+ 1057  git push -u origin 
+ 1058  g++ struct.cpp 
+ 1059  ./a.out 
+ 1060  g++ struct.cpp 
+ 1061  ./a.out 
+ 1062  g++ struct.cpp 
+ 1063  ./a.out 
+ 1064  g++ union.cpp
+ 1065  ./a.out 
+ 1066  g++ union.cpp
+ 1067  ./a.out 
+ 1068  g++ union.cpp
+ 1069  ./a.out 
+ 1070  g++ union.cpp
+ 1071  ./a.out 
+ 1072  g++ union.cpp
+ 1073  ./a.out 
+ 1074  git add .
+ 1075  git commit -m "matrix-medium"
+ 1076  git push -u origin 
+ 1077  ls
+ 1078  cd wsl-code/
+ 1079  ls
+ 1080  cd user2/
+ 1081  ls
+ 1082  bash download.sh 
+ 1083  g+
+ 1084  g++ lianxiang.cpp 
+ 1085  ./
+ 1086  ./a.out 
+ 1087  git add .
+ 1088  git commit -m "linkedlist-easy"
+ 1089  git push -u origin 
+ 1090  git add .
+ 1091  git commit -m "linkedlist-easy"
+ 1092  git push -u origin 
+ 1093  git add .
+ 1094  git commit -m "linkedlist-easy-2"
+ 1095  git push -u origin 
+ 1096  ls
+ 1097  code .
+ 1098  ls
+ 1099  cd wsl-code/
+ 1100  ls
+ 1101  code .
+ 1102  ls
+ 1103  git add .
+ 1104  git commit -m "graph-medium"
+ 1105  git push -u origin 
+ 1106  git add .
+ 1107  git commit -m "search-easy-medium"
+ 1108  git push -u origin 
+ 1109  git add .
+ 1110  git commit -m "tree-norecur"
+ 1111  git push -u origin 
+ 1112  g++ 01.cpp 
+ 1113  ./a.out 
+ 1114  g++ 01.cpp 
+ 1115  ./a.out 
+ 1116  g++ 01.cpp 
+ 1117  ./a.out 
+ 1118  g++ 01.cpp 
+ 1119  ./a.out 
+ 1120  g++ 01.cpp 
+ 1121  ./a.out 
+ 1122  g++ 01.cpp 
+ 1123  ./a.out 
+ 1124  g++ 01.cpp 
+ 1125  ./a.out 
+ 1126  g++ 02.cpp 
+ 1127  ./a.out 
+ 1128  g++ 02.cpp 
+ 1129  ./a.out 
+ 1130  git add .
+ 1131  git commit -m "tree-medium"
+ 1132  git push -u origin 
+ 1133  git add .
+ 1134  git commit -m "backtracking-medium"
+ 1135  git push -u origin 
+ 1136  git add .
+ 1137  git commit -m "search-medium"
+ 1138  git push -u origin 
+ 1139  git add .
+ 1140  git commit -m "medium"
+ 1141  git push -u origin 
+ 1142  git add .
+ 1143  git commit -m "dp-medium"
+ 1144  git push -u origin 
+ 1145  clear
+ 1146  git add .
+ 1147  git commit -m "dp-medium"
+ 1148  git push -u origin 
+ 1149  git add .
+ 1150  git commit -m "stack-easy"
+ 1151  git push -u origin 
+ 1152  g++ -v
+ 1153  gcc -v
+ 1154  gcc
+ 1155  gcc -version
+ 1156  gcc -v
+ 1157  clear
+ 1158  git add .
+ 1159  git commit -m "heap-medium"
+ 1160  git push -u origin 
+ 1161  git init
+ 1162  git add .
+ 1163  git commit -m "first commit"
+ 1164  git branch -M main
+ 1165  git remote add origin https://github.com/g932150283/singleton.git
+ 1166  git push -u origin main
+ 1167  git add .
+ 1168  git commit -m "hash-easy"
+ 1169  git push -u origin 
+ 1170  5
+ 1171  1 2 3 4 5
+ 1172  3
+ 1173  git add .
+ 1174  git commit -m "linkedlist-easy"
+ 1175  git push -u origin 
+ 1176  4 4 8
+ 1177  g++ 01.cpp 
+ 1178  ./a.out 
+ 1179  g++ 01.cpp 
+ 1180  ./a.out 
+ 1181  g++ 01.cpp 
+ 1182  ./a.out 
+ 1183  g++ 01.cpp 
+ 1184  ./a.out 
+ 1185  g++ 01.cpp 
+ 1186  ./a.out 
+ 1187  g++ 01.cpp 
+ 1188  ./a.out 
+ 1189  g++ 02.cpp 
+ 1190  ./a.out 
+ 1191  g++ 02.cpp 
+ 1192  ./a.out 
+ 1193  g++ 03.cpp 
+ 1194  ./a.out 
+ 1195  g++ 02.cpp 
+ 1196  ./a.out 
+ 1197  g++ 02.cpp 
+ 1198  ./a.out 
+ 1199  g++ 02.cpp 
+ 1200  ./a.out 
+ 1201  g++ 02.cpp 
+ 1202  ./a.out 
+ 1203  g++ 02.cpp 
+ 1204  ./a.out 
+ 1205  g++ 02.cpp 
+ 1206  ./a.out 
+ 1207  g++ 02.cpp 
+ 1208  ./a.out 
+ 1209  g++ 02.cpp 
+ 1210  ./a.out 
+ 1211  git add .
+ 1212  git commit -m "tree-easy-4"
+ 1213  git push -u origin 
+ 1214  git add .
+ 1215  git commit -m "tree-5"
+ 1216  git push -u origin 
+ 1217  git add .
+ 1218  git commit -m "tree-medium"
+ 1219  git push -u origin 
+ 1220  git add .
+ 1221  git commit -m "tree-medium"
+ 1222  git push -u origin 
+ 1223  git add .
+ 1224  git commit -m "tree-hard-graph-medium"
+ 1225  git push -u origin main
+ 1226  git add .
+ 1227  git commit -m "linkedlist-medium-2"
+ 1228  git push -u origin 
+ 1229  git add .
+ 1230  git commmit -m "linkedlist-medium"
+ 1231  git commit -m "linkedlist-medium"
+ 1232  git push -u origin 
+ 1233  cd ..
+ 1234  git add .
+ 1235  git commit -m "linkedlist-medium-2"
+ 1236  git push -u origin 
+ 1237  g++ s1.cpp 
+ 1238  ./a.out 
+ 1239  g++ s2.cpp 
+ 1240  ./a.out 
+ 1241  g++ s3.cpp 
+ 1242  ./a.out 
+ 1243  g++ s3.cpp 
+ 1244  ./a.out 
+ 1245  g++ m2.cpp 
+ 1246  ./a.out 
+ 1247  g++ m3.cpp 
+ 1248  ./a.out 
+ 1249  g++ m3.cpp 
+ 1250  ./a.out 
+ 1251  git add .
+ 1252  git commit -m "linkedlist-hard"
+ 1253  git push -u origin 
+ 1254  git add .
+ 1255  git commit -m "linkedlist-hard"
+ 1256  git push -u origin 
+ 1257  git add .
+ 1258  git commit -m "bag-medium-2"
+ 1259  git push -u origin 
+ 1260  git add .
+ 1261  git commit -m "stact-minstack"
+ 1262  git push -u origin 
+ 1263  g++ 01.cpp 
+ 1264  ./a.out 
+ 1265  g++ 01.cpp 
+ 1266  ./a.out 
+ 1267  atk 100
+ 1268  2
+ 1269  spd 30
+ 1270  atk 50
+ 1271  def 10
+ 1272  1
+ 1273  atkper 20
+ 1274  atkper 30
+ 1275  4
+ 1276  atk 150
+ 1277  def 20
+ 1278  spd 5
+ 1279  atkper 20
+ 1280  spd 15
+ 1281  0
+ 1282  atk 100
+ 1283  1
+ 1284  ./a.out 
+ 1285  atk 100
+ 1286  2
+ 1287  spd 30
+ 1288  atk 50
+ 1289  def 10
+ 1290  1
+ 1291  atkper 20
+ 1292  atkper 30
+ 1293  4
+ 1294  atk 150
+ 1295  def 20
+ 1296  spd 5
+ 1297  atkper 20
+ 1298  spd 15
+ 1299  0
+ 1300  atk 100
+ 1301  1
+ 1302  g++ 01.cpp 
+ 1303  ./a.out 
+ 1304  g++ 01.cpp 
+ 1305  ./a.out 
+ 1306  spd 4
+ 1307  atk 100
+ 1308  2
+ 1309  spd 30
+ 1310  atk 50
+ 1311  spd 4
+ 1312  atk 100
+ 1313  2
+ 1314  spd 30
+ 1315  atk 50
+ 1316  atk 100
+ 1317  2
+ 1318  spd 30
+ 1319  atk 50
+ 1320  1
+ 1321  spd 4
+ 1322  atk 100
+ 1323  2
+ 1324  spd 30
+ 1325  atk 50
+ 1326  pd 5
+ 1327  spd 5
+ 1328  atk 100
+ 1329  2
+ 1330  spd 30
+ 1331  atk 50
+ 1332  def 10
+ 1333  1
+ 1334  atkper 20
+ 1335  atkper 30
+ 1336  4
+ 1337  atk 150
+ 1338  def 20
+ 1339  spd 5
+ 1340  atkper 20
+ 1341  spd 15
+ 1342  0
+ 1343  atk 100
+ 1344  1
+ 1345  pd 5
+ 1346  atk 50
+ 1347  def 10
+ 1348  1
+ 1349  atkper 20
+ 1350  atkper 30
+ 1351  4
+ 1352  atk 150
+ 1353  def 20
+ 1354  spd 5
+ 1355  atkper 20
+ 1356  spd 15
+ 1357  0
+ 1358  atk 100
+ 1359  1
+ 1360  pd 5
+ 1361  2
+ 1362  spd 30
+ 1363  atk 50
+ 1364  def 10
+ 1365  1
+ 1366  atkper 20
+ 1367  atkper 30
+ 1368  4
+ 1369  atk 150
+ 1370  def 20
+ 1371  spd 5
+ 1372  atkper 20
+ 1373  spd 15
+ 1374  0
+ 1375  atk 100
+ 1376  1
+ 1377  pd 5
+ 1378  atk 50
+ 1379  def 10
+ 1380  1
+ 1381  atkper 20
+ 1382  atkper 30
+ 1383  4
+ 1384  atk 150
+ 1385  def 20
+ 1386  spd 5
+ 1387  atkper 20
+ 1388  spd 15
+ 1389  0
+ 1390  atk 100
+ 1391  1
+ 1392  git add .
+ 1393  git commit -m "technich-easy"
+ 1394  git push -u origin 
+ 1395  git add .
+ 1396  git commit -m "color-mediun"
+ 1397  git push -u origin 
+ 1398  git add .
+ 1399  git commit -m "dp-easy"
+ 1400  git push -u origin 
+ 1401  git --version
+ 1402  git add .
+ 1403  git commit -m "doublepointer-easy"
+ 1404  git push -u origin 
+ 1405  git add .
+ 1406  git commit -m "greedy-easy"
+ 1407  git push -u origin 
+ 1408  top
+ 1409  git add .
+ 1410  git commit -m "technique-medium"
+ 1411  git push -u origin 
+ 1412  git add .
+ 1413  git commit -m "technique-medium"
+ 1414  git push -u origin 
+ 1415  git add .
+ 1416  git commit -m "hashmap-medium"
+ 1417  git push -u origin 
+ 1418  version
+ 1419  cat /proc/version
+ 1420  git add .
+ 1421  git commit -m "doublepointer-medium-hard"
+ 1422  git push -u origin 
+ 1423  git add .
+ 1424  git commit -m "doublepointer-medium"
+ 1425  git push -u origin 
+ 1426  git add .
+ 1427  git commit -m "window-medium"
+ 1428  git push -u origin 
+ 1429  git add .
+ 1430  git commit -m "substring-mediun"
+ 1431  git push -u origin 
+ 1432  git add .
+ 1433  git commit -m "substring-window"
+ 1434  git push -u origin 
+ 1435  192.168.0.6 6
+ 1436  92.168.0.7 7
+ 1437  g++ 01.cpp 
+ 1438  ./a.out 
+ 1439  g++ 01.cpp 
+ 1440  ./a.out 
+ 1441  g++ 01.cpp 
+ 1442  ./a.out 
+ 1443  g++ 01.cpp 
+ 1444  ./a.out 
+ 1445  g++ 01.cpp 
+ 1446  ./a.out 
+ 1447  g++ 01.cpp 
+ 1448  ./a.out 
+ 1449  g++ 01.cpp 
+ 1450  ./a.out 
+ 1451  g++ 01.cpp 
+ 1452  ./a.out 
+ 1453  g++ 02.cpp 
+ 1454  ./a.out 
+ 1455  192.168.0.2 2
+ 1456  192.168.0.3 3
+ 1457  192.168.0.4 4
+ 1458  192.168.0.5 5
+ 1459  192.168.0.6 6
+ 1460  192.168.0.7 7
+ 1461  ./a.out 
+ 1462  192.168.0.2 2
+ 1463  192.168.0.3 3
+ 1464  192.168.0.4 4
+ 1465  192.168.0.5 5
+ 1466  192.168.0.6 6
+ 1467  g++ 02.cpp 
+ 1468  ./a
+ 1469  ./a.out 
+ 1470  192.168.0.2 2
+ 1471  192.168.0.3 3
+ 1472  192.168.0.4 4
+ 1473  192.168.0.5 5
+ 1474  192.168.0.6 6
+ 1475  192.168.0.7 7
+ 1476  ./a.out 
+ 1477  g++ 03.cpp 
+ 1478  ./a.out 
+ 1479  g++ 03.cpp 
+ 1480  ./a.out 
+ 1481  g++ 03.cpp 
+ 1482  ./a.out 
+ 1483  g++ 03.cpp 
+ 1484  ./a.out 
+ 1485  g++ 03.cpp 
+ 1486  ./a.out 
+ 1487  g++ 03.cpp 
+ 1488  ./a.out 
+ 1489  2 7
+ 1490  g++ 03.cpp 
+ 1491  2 7
+ 1492  ./a.out 
+ 1493  g++ 03.cpp 
+ 1494  ./a.out 
+ 1495  git add .
+ 1496  git commit -m "vector-medium"
+ 1497  git push -u origin 
+ 1498  git add .
+ 1499  git commit -m "array-medium"
+ 1500  git push -u origin 
+ 1501  9 10
+ 1502  10 9
+ 1503  3
+ 1504  1
+ 1505  6
+ 1506  9 10
+ 1507  10 9
+ 1508  3
+ 1509  1
+ 1510  6
+ 1511  9
+ 1512  git add .
+ 1513  git commit -m "array-medium"
+ 1514  git push -u origin 
+ 1515  g++ 01.cpp 
+ 1516  ./a.out 
+ 1517  g++ 01.cpp 
+ 1518  ./a.out 
+ 1519  git add .
+ 1520  git commit -m "array-mediun"
+ 1521  git push -u origin 
+ 1522  g++ 02.cpp 
+ 1523  ./a.out 
+ 1524  g++ 02.cpp 
+ 1525  ./a.out 
+ 1526  git add .
+ 1527  git commit -m "matrix-medium"
+ 1528  git push -u origin 
+ 1529  git add .
+ 1530  git commit -m "matrix-medium-backtracing-medium"
+ 1531  git push -u origin 
+ 1532  git add .
+ 1533  git commit -m "substring-hard"
+ 1534  git push -u origin 
+ 1535  ls
+ 1536  cd ..
+ 1537  ls
+ 1538  cd uer
+ 1539  cd user/
+ 1540  ls
+ 1541  cd linuxjihuo/
+ 1542  ls
+ 1543  sh idea.sh 
+ 1544  cd ..
+ 1545  ls
+ 1546  cd ..
+ 1547  ls
+ 1548  cd ..
+ 1549  ls
+ 1550  find / idea
+ 1551  which idea
+ 1552  whereis idea
+ 1553  ls /mnt/c/
+ 1554  ls /mnt/c/Program\ Files/JetBrains/
+ 1555  which idea.sh
+ 1556  L9HCMCBY26-eyJsaWNlbnNlSWQiOiJMOUhDTUNCWTI2IiwibGljZW5zZWVOYW1lIjoiTmFuamluZyBVbml2ZXJzaXR5IG9mIEFlcm9uYXV0aWNzIGFuZCBBc3Ryb25hdXRpY3MiLCJsaWNlbnNlZVR5cGUiOiJDTEFTU1JPT00iLCJhc3NpZ25lZU5hbWUiOiJsaSB4aW4iLCJhc3NpZ25lZUVtYWlsIjoiODQzODAxMzZAcXEuY29tIiwibGljZW5zZVJlc3RyaWN0aW9uIjoiRm9yIGVkdWNhdGlvbmFsIHVzZSBvbmx5IiwiY2hlY2tDb25jdXJyZW50VXNlIjpmYWxzZSwicHJvZHVjdHMiOlt7ImNvZGUiOiJHTyIsInBhaWRVcFRvIjoiMjAyNC0wOC0wOCIsImV4dGVuZGVkIjpmYWxzZX0seyJjb2RlIjoiUlMwIiwicGFpZFVwVG8iOiIyMDI0LTA4LTA4IiwiZXh0ZW5kZWQiOmZhbHNlfSx7ImNvZGUiOiJETSIsInBhaWRVcFRvIjoiMjAyNC0wOC0wOCIsImV4dGVuZGVkIjpmYWxzZX0seyJjb2RlIjoiQ0wiLCJwYWlkVXBUbyI6IjIwMjQtMDgtMDgiLCJleHRlbmRlZCI6ZmFsc2V9LHsiY29kZSI6IkFDIiwicGFpZFVwVG8iOiIyMDI0LTA4LTA4IiwiZXh0ZW5kZWQiOmZhbHNlfSx7ImNvZGUiOiJSU1UiLCJwYWlkVXBUbyI6IjIwMjQtMDgtMDgiLCJleHRlbmRlZCI6ZmFsc2V9LHsiY29kZSI6IlJTQyIsInBhaWRVcFRvIjoiMjAyNC0wOC0wOCIsImV4dGVuZGVkIjp0cnVlfSx7ImNvZGUiOiJQQyIsInBhaWRVcFRvIjoiMjAyNC0wOC0wOCIsImV4dGVuZGVkIjpmYWxzZX0seyJjb2RlIjoiRFMiLCJwYWlkVXBUbyI6IjIwMjQtMDgtMDgiLCJleHRlbmRlZCI6ZmFsc2V9LHsiY29kZSI6IlJEIiwicGFpZFVwVG8iOiIyMDI0LTA4LTA4IiwiZXh0ZW5kZWQiOmZhbHNlfSx7ImNvZGUiOiJRQSIsInBhaWRVcFRvIjoiMjAyNC0wOC0wOCIsImV4dGVuZGVkIjpmYWxzZX0seyJjb2RlIjoiUkMiLCJwYWlkVXBUbyI6IjIwMjQtMDgtMDgiLCJleHRlbmRlZCI6ZmFsc2V9LHsiY29kZSI6IlJTRiIsInBhaWRVcFRvIjoiMjAyNC0wOC0wOCIsImV4dGVuZGVkIjp0cnVlfSx7ImNvZGUiOiJSTSIsInBhaWRVcFRvIjoiMjAyNC0wOC0wOCIsImV4dGVuZGVkIjpmYWxzZX0seyJjb2RlIjoiSUkiLCJwYWlkVXBUbyI6IjIwMjQtMDgtMDgiLCJleHRlbmRlZCI6ZmFsc2V9LHsiY29kZSI6IkRQTiIsInBhaWRVcFRvIjoiMjAyNC0wOC0wOCIsImV4dGVuZGVkIjpmYWxzZX0seyJjb2RlIjoiREIiLCJwYWlkVXBUbyI6IjIwMjQtMDgtMDgiLCJleHRlbmRlZCI6ZmFsc2V9LHsiY29kZSI6IkRDIiwicGFpZFVwVG8iOiIyMDI0LTA4LTA4IiwiZXh0ZW5kZWQiOmZhbHNlfSx7ImNvZGUiOiJQUyIsInBhaWRVcFRvIjoiMjAyNC0wOC0wOCIsImV4dGVuZGVkIjpmYWxzZX0seyJjb2RlIjoiUlIiLCJwYWlkVXBUbyI6IjIwMjQtMDgtMDgiLCJleHRlbmRlZCI6ZmFsc2V9LHsiY29kZSI6IlJTViIsInBhaWRVcFRvIjoiMjAyNC0wOC0wOCIsImV4dGVuZGVkIjp0cnVlfSx7ImNvZGUiOiJXUyIsInBhaWRVcFRvIjoiMjAyNC0wOC0wOCIsImV4dGVuZGVkIjpmYWxzZX0seyJjb2RlIjoiUFNJIiwicGFpZFVwVG8iOiIyMDI0LTA4LTA4IiwiZXh0ZW5kZWQiOnRydWV9LHsiY29kZSI6IlBDV01QIiwicGFpZFVwVG8iOiIyMDI0LTA4LTA4IiwiZXh0ZW5kZWQiOnRydWV9LHsiY29kZSI6IlJTIiwicGFpZFVwVG8iOiIyMDI0LTA4LTA4IiwiZXh0ZW5kZWQiOnRydWV9LHsiY29kZSI6IkRQIiwicGFpZFVwVG8iOiIyMDI0LTA4LTA4IiwiZXh0ZW5kZWQiOnRydWV9LHsiY29kZSI6IlBEQiIsInBhaWRVcFRvIjoiMjAyNC0wOC0wOCIsImV4dGVuZGVkIjp0cnVlfSx7ImNvZGUiOiJQUlIiLCJwYWlkVXBUbyI6IjIwMjQtMDgtMDgiLCJleHRlbmRl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
+ 1557  find / -type f -name "*2023*"
+ 1558  ls
+ 1559  find / -type f -name "*231.9225.6*"
+ 1560  ls
+ 1561  top
+ 1562  find / -type f -name "*231.9225.6*"
+ 1563  sudo find / -type f -name "*231.9225.6*"
+ 1564  sudo find / -type f -name "JetBrains"
+ 1565  ls
+ 1566  cd .cache
+ 1567  ls
+ 1568  cd .cache\JetBrains\RemoteDev\dist\621df63cc6f4c_ideaIU-231.9225.6\bin
+ 1569  cd JetBrains/
+ 1570  cd RemoteDev/dist/621df63cc6f4c_ideaIU-231.9225.6/bin
+ 1571  ls
+ 1572  ./idea.sh 
+ 1573  cd ..
+ 1574  ls
+ 1575  cd linuxjihuo/
+ 1576  ls
+ 1577  sh idea.sh 
+ 1578  cd \\wsl$\Ubuntu-22.04\home\user\.cache\JetBrains\RemoteDev\dist\621df63cc6f4c_ideaIU-231.9225.6\bin
+ 1579  cd ..
+ 1580  ls
+ 1581  cd ..
+ 1582  ls
+ 1583  cd user/
+ 1584  cd /.cache
+ 1585  ls
+ 1586  cd linuxjihuo/
+ 1587  ls
+ 1588  sh idea.sh 
+ 1589  \\wsl$\Ubuntu-22.04\home\user\.cache\JetBrains\RemoteDev\dist\621df63cc6f4c_ideaIU-231.9225.6\bin
+ 1590  cd /home/user/.cache
+ 1591  ls
+ 1592  cd JetBrains/RemoteDev/dist/621df63cc6f4c_ideaIU-231.9225.6/bin/
+ 1593  ls
+ 1594  sh idea.sh 
+ 1595  cd ..
+ 1596  ls
+ 1597  cd ..
+ 1598  cd linuxjihuo/
+ 1599  ls
+ 1600  sh idea.sh 
+ 1601  git add .
+ 1602  git commit -m "array-easy-hard"
+ 1603  git push -u origin 
+ 1604  git add .
+ 1605  git commit -m "matrix-medium"
+ 1606  git add .
+ 1607  git commit -m "matrix-medium"
+ 1608  git push -u origin 
+ 1609  git pull origin master
+ 1610  git pull origin main
+ 1611  git pull origin
+ 1612  g++ 01.cpp 
+ 1613  cd ..
+ 1614  git add .
+ 1615  git commit -m "backtracing-medium"
+ 1616  git push -u origin 
+ 1617  git pull origin
+ 1618  git add .
+ 1619  git commit -m "backtracing-medium"
+ 1620  git push -u origin 
+ 1621  git add .
+ 1622  git commit -m "heap-medium"
+ 1623  git push -u origin 
+ 1624  ls
+ 1625  mkdir /home/user/back
+ 1626  touch /home/user/back/test /home/user/back/test2
+ 1627  mv /home/user/back/test2 /home/user/file2
+ 1628  git add .
+ 1629  git commit -m "dp-medium"
+ 1630  git push -u origin 
+ 1631  git add .
+ 1632  git commit -m "dp-medium"
+ 1633  git push -u origin 
+ 1634  git add .
+ 1635  git commit -m "greedy-medium"
+ 1636  git push -u origin 
+ 1637  git add .
+ 1638  git commit -m "dp-medium"
+ 1639  git push -u origin 
+ 1640  git add .
+ 1641  git commit -m "dp-medium"
+ 1642  git push -u origin 
+ 1643  git add .
+ 1644  git commit -m "dp-medium-change"
+ 1645  git push -u origin 
+ 1646  git filter-repo --path mycode/hot100/动态规划/62不同路径.cpp --invert-paths
+ 1647  git add .
+ 1648  git commit -m "dp-medium-change"
+ 1649  git push -u origin 
+ 1650  git rebase -i HEAD~3
+ 1651  git commit -m "dp-medium"
+ 1652  git add .
+ 1653  git commit -m "dp-medium"
+ 1654  git push -u origin 
+ 1655  git checkout main
+ 1656  git push -u origin
+ 1657  git checkout -b backup
+ 1658  git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch mycode/hot100/动态规划/62不同路径.cpp' --prune-empty --tag-name-filter cat -- --all
+ 1659  git filter-repo --path mycode/hot100/动态规划/62不同路径.cpp --invert-paths
+ 1660  git branch
+ 1661  git checkout main
+ 1662  git show 7dbb0d65f951cf53ce0369d0d4c18dad61a328ae:mycode/hot100/动态规划/62不同路径.cpp
+ 1663  nano mycode/hot100/动态规划/62不同路径.cpp
+ 1664  git rebase -i HEAD~n
+ 1665  git rebase -i HEAD~3
+ 1666  git push -u origin
+ 1667  git pull origin main
+ 1668  git fetch origin
+ 1669  git reset --hard origin/main
+ 1670  git push origin main --force
+ 1671  git add .
+ 1672  git commit -m "dp-medium"
+ 1673  git push -u origin 
+ 1674  git add .
+ 1675  git commit -m "search-medium"
+ 1676  git push -u origin 
+ 1677  git add .
+ 1678  git commit -m "stack-medium"
+ 1679  git push -u origin 
+ 1680  git add .
+ 1681  git commit -m "dp-medium"
+ 1682  git push -u origin 
+ 1683  git add .
+ 1684  git commit -m "stack-medium"
+ 1685  git push -u origin 
+ 1686  code .
+ 1687  ./code
+ 1688  ls
+ 1689  code .
+ 1690  . code
+ 1691  ls
+ 1692  git add .
+ 1693  git commit -m "dp-medium"
+ 1694  git push -u origin 
+ 1695  git add .
+ 1696  git commit -m "backtracing-medium"
+ 1697  git push -u origin 
+ 1698  git add .
+ 1699  git commit -m "backtracing-medium"
+ 1700  git push -u origin 
+ 1701  git add .
+ 1702  git commit -m "graph-medium"
+ 1703  git push -u origin 
+ 1704  git add .
+ 1705  git commit -m "graph-medium"
+ 1706  git push -u origin 
+ 1707  git add .
+ 1708  git commit -m "greedy-medium"
+ 1709  git push -u origin 
+ 1710  git add .
+ 1711  git commit -m "dp-medium"
+ 1712  git push -u origin 
+ 1713  git add .
+ 1714  git commit -m "search-medium"
+ 1715  git push -u origin 
+ 1716  git add .
+ 1717  git commit -m "heap-hard"
+ 1718  git push -u origin 
+ 1719  git commit -m "search-hard"
+ 1720  git add .
+ 1721  git commit -m "search-hard"
+ 1722  git push -u origin 
+ 1723  git add .
+ 1724  git commit -m "backtracing-hard"
+ 1725  git push -u origin 
+ 1726  git add .
+ 1727  git commit -m "greedy-medium"
+ 1728  git push -u origin 
+ 1729  git add .
+ 1730  git commit -m "dp-medium"
+ 1731  git push -u origin 
+ 1732  git add .
+ 1733  git commit -m "dp-medium"
+ 1734  git push -u origin 
+ 1735  git add .
+ 1736  git commit -m "stack-hard"
+ 1737  git push -u origin 
+ 1738  git add .
+ 1739  git commit -m "dp-medium"
+ 1740  git push -u origin 
+ 1741  git add .
+ 1742  git commit -m "dp-hard"
+ 1743  git push -u origin 
+ 1744  git add .
+ 1745  git commit -m "array&string-easy"
+ 1746  git push -u origin 
+ 1747  git add .
+ 1748  git commit -m "doublepointer-easy"
+ 1749  git push -u origin 
+ 1750  git add .
+ 1751  git commit -m "doublepointer-medium"
+ 1752  git push -u origin 
+ 1753  git add .
+ 1754  git commit -m "doublepointer-medium"
+ 1755  git push -u origin 
+ 1756  git add .
+ 1757  git commit -m "window-medium"
+ 1758  git push -u origin 
+ 1759  git add .
+ 1760  git commit -m "window-medium"
+ 1761  git push -u origin 
+ 1762  git add .
+ 1763  git commit -m "window-medium"
+ 1764  git push -u origin 
+ 1765  git add .
+ 1766  git commit -m "window-medium"
+ 1767  git push -u origin 
+ 1768  git add .
+ 1769  git commit -m "linkedlist-easy"
+ 1770  git push -u origin 
+ 1771  git add .
+ 1772  git commit -m "linkedlist0803"
+ 1773  git push -u origin 
+ 1774  docker
+ 1775  docker search nginx
+ 1776  git add .
+ 1777  git commit -m "linkedlist0804"
+ 1778  git push -u origin 
+ 1779  git add .
+ 1780  git commit -m "array0805"
+ 1781  git push -u origin 
+ 1782  git add .
+ 1783  git commit -m "array-easy-0805"
+ 1784  git push -u origin 
+ 1785  git add .
+ 1786  git commit -m "array-doubleprt-ver-qianzhui0806"
+ 1787  git push -u origin 
+ 1788  git add .
+ 1789  git commit -m "array-preSum&diff"
+ 1790  git push -u origin 
+ 1791  git commit -m "array-window"
+ 1792  git commit -m "array-preSum&diff"
+ 1793  git add .
+ 1794  git commit -m "array-window"
+ 1795  git push -u origin 
+ 1796  git add .
+ 1797  git commit -m "array-binarysearch&dp-coins"
+ 1798  git push -u origin 
+ 1799  git commit -m "array-binarysearch"
+ 1800  git add .
+ 1801  git commit -m "array-binarysearch"
+ 1802  git push -u origin 
+ 1803  git add .
+ 1804  git commit -m "array-binarysearch"
+ 1805  git push -u origin 
+ 1806  git add .
+ 1807  git commit -m "array-horse&dp-sequence"
+ 1808  git push -u origin 
+ 1809  git add .
+ 1810  git commit -m "tree-easy&dp-edit"
+ 1811  git push -u origin 
+ 1812  git add .
+ 1813  git commit -m "tree-depth&traverse"
+ 1814  git push -u origin 
+ 1815  git add .
+ 1816  git commit -m "tree-invert"
+ 1817  git push -u origin 
+ 1818  git add .
+ 1819  git commit -m "tree-next"
+ 1820  git push -u origin 
+ 1821  git add .
+ 1822  git commit -m "tree-next"
+ 1823  git push -u origin 
+ 1824  git add .
+ 1825  git commit -m "tree-next"
+ 1826  git push -u origin 
+ 1827  git commit -m "tree-next"
+ 1828  git add .
+ 1829  git commit -m "tree-list"
+ 1830  git push -u origin 
+ 1831  git add .
+ 1832  git commit -m "tree-construct"
+ 1833  git push -u origin 
+ 1834  git add .
+ 1835  git commit -m "tree-construct-pre-in"
+ 1836  git push -u origin 
+ 1837  git add .
+ 1838  git commit -m "tree-construct&BST"
+ 1839  git push -u origin 
+ 1840  git add .
+ 1841  git commit -m "tree-BST"
+ 1842  git push -u origin 
+ 1843  ping www.baidu.com
+ 1844  ping github.com
+ 1845  git push -u origin 
+ 1846  ping github.com
+ 1847  git push -u origin 
+ 1848  ping www.baidu.com
+ 1849  ping github.com
+ 1850  git push -u origin 
+ 1851  wget www.google.com
+ 1852  ip config
+ 1853  ifconfig
+ 1854  vim .bashrc
+ 1855  source .bashrc
+ 1856  wget www.google.com
+ 1857  vim .bashrc
+ 1858  source .bashrc
+ 1859  wget www.google.com
+ 1860  wget www.baidu.com
+ 1861  cd ..
+ 1862  vim .bashrc
+ 1863  curl "https://www.google.com"
+ 1864  curl "https://www.baidu.com"
+ 1865  vim .bashrc
+ 1866  wegt www.baidu.com
+ 1867  wget www.baidu.com
+ 1868  ping www.baidu.com
+ 1869  curl -x http://172.28.80.1:7890 http://www.baidu.com
+ 1870  ping www.baidu.com
+ 1871  wget www.baidu.com
+ 1872  ip route
+ 1873  echo $http_proxy
+ 1874  echo $https_proxy
+ 1875  curl -x http://172.28.80.1:7890 http://180.101.50.188
+ 1876  curl http://www.baidu.com
+ 1877  ping 8.8.8.8
+ 1878  sudo nano /etc/resolv.conf
+ 1879  curl http://www.baidu.com
+ 1880  wget www.baidu.com
+ 1881  env | grep -i proxy
+ 1882  unset https_proxy
+ 1883  unset http_proxy
+ 1884  unset all_proxy
+ 1885  env | grep -i proxy
+ 1886  curl http://www.baidu.com
+ 1887  wget www.baidu.com
+ 1888  wget www.google.com
+ 1889  git push -u origin 
+ 1890  git add .
+ 1891  git commit -m "tree-BST"
+ 1892  git push -u origin 
+ 1893  wget www.google.com
+ 1894  cd ..
+ 1895  ls
+ 1896  vim .bashrc
+ 1897  source .bashrc
+ 1898  wget www.google.com
+ 1899  proxy
+ 1900  sudo apt install libproxy-tools
+ 1901  proxy
+ 1902  wget www.google.com
+ 1903  wget github.com
+ 1904  curl http://www.baidu.com
+ 1905  git push -u origin 
+ 1906  wget www.google.com
+ 1907  git add .
+ 1908  git commit -m "tree-BST"
+ 1909  git push -u origin 
+ 1910  git add .
+ 1911  git commit -m "tree-count"
+ 1912  git push -u origin 
+ 1913  wget www.google.com
+ 1914  curl http://www.baidu.com
+ 1915  unset all_proxy
+ 1916  curl http://www.baidu.com
+ 1917  env | grep -i proxy
+ 1918  unset https_proxy
+ 1919  env | grep -i proxy
+ 1920  unset http_proxy
+ 1921  env | grep -i proxy
+ 1922  curl http://www.baidu.com
+ 1923  git push -u origin 
+ 1924  git add .
+ 1925  git commit -m "queue&stack-stackToQueue"
+ 1926  git push -u origin 
+ 1927  curl http://www.baidu.com
+ 1928  env | grep -i proxy
+ 1929  unset http_proxy
+ 1930  unset https_proxy
+ 1931  unset all_proxy
+ 1932  curl http://www.baidu.com
+ 1933  git push -u origin 
+ 1934  git add .
+ 1935  git commit -m "queue&stack-queueToStack"
+ 1936  git push -u origin 
+ 1937  curl http://www.baidu.com
+ 1938  env | grep -i proxy
+ 1939  unset all_proxy
+ 1940  curl http://www.baidu.com
+ 1941  unset https_proxy
+ 1942  unset http_proxy
+ 1943  curl http://www.baidu.com
+ 1944  git add .
+ 1945  git commit -m "queue&stack-nextGreater"
+ 1946  git push -u origin 
+ 1947  git add .
+ 1948  git commit -m "queue&stack-nextGreaterT"
+ 1949  git push -u origin 
+ 1950  env | grep -i proxy
+ 1951  unset http_proxy
+ 1952  unset *_proxy
+ 1953  env | grep -i proxy
+ 1954  unset https_proxy&all_proxy
+ 1955  unset all_proxy
+ 1956  env | grep -i proxy
+ 1957  unset https_proxy
+ 1958  env | grep -i proxy
+ 1959  git push -u origin 
+ 1960  git add .
+ 1961  git commit -m "queue&stack-MonotonicQueue"
+ 1962  git push -u origin 
+ 1963  env | grep -i proxy
+ 1964  unset https_proxy
+ 1965  unset http_proxy
+ 1966  unset all_proxy
+ 1967  git push -u origin 
+ 1968  env | grep -i proxy
+ 1969  git push -u origin 
+ 1970  git add .
+ 1971  git commit -m "LRU"
+ 1972  unset https_proxy & unset http_proxy & unset all_proxy
+ 1973  env | grep -i proxy
+ 1974  unset https_proxy
+ 1975  unset http_proxy
+ 1976  git push -u origin 
+ 1977  env | grep -i proxy
+ 1978  unset https_proxy & unset http_proxy & unset all_proxy
+ 1979  unset http_proxy
+ 1980  unset https_proxy
+ 1981  env | grep -i proxy
+ 1982  git add .
+ 1983  git commit -m "dp-huiwen"
+ 1984  git push -u origin 
+ 1985  git add .
+ 1986  git commit -m "dp-greedy"
+ 1987  git push -u origin 
+ 1988  env | grep -i proxy
+ 1989  unset https_proxy
+ 1990  unset http_proxy
+ 1991  unset all_proxy
+ 1992  git push -u origin 
+ 1993  env | grep -i proxy
+ 1994  git push -u origin 
+ 1995  env | grep -i proxy
+ 1996  git push -u origin 
+ 1997  unset https_proxy
+ 1998  unset http_proxy
+ 1999  unset all_proxy
+ 2000  git push -u origin 
+ 2001  git add .
+ 2002  git commit -m "dp-stock"
+ 2003  git push -u origin 
+ 2004  env | grep -i proxy
+ 2005  unset all_proxy
+ 2006  unset http_proxy
+ 2007  unset https_proxy
+ 2008  wget github.com
+ 2009  env | grep -i proxy
+ 2010  history > t.txt
