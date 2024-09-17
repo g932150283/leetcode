@@ -10,7 +10,9 @@ public:
         vector<int> res;
         unordered_map<char, int> needs;
         unordered_map<char, int> windows;
-        for(char c : t){
+        for (char c : t)
+        {
+
             needs[c]++;
         }
         int l = 0, r = 0;
@@ -19,19 +21,31 @@ public:
         while (r < s.size())
         {
             char c = s[r];
-            if(needs.count(c)){
+            if (needs.count(c))
+            {
                 windows[c]++;
-                if(needs[c] == windows[c]){
+                if (needs[c] == windows[c])
+                {
                     match++;
                 }
             }
             r++;
-            if(match == needs.size()){
-                res.push_back(l);
+            while (match == needs.size())
+            {
+                // cout << r << " " << l << endl;
+                // cout << needs.size() << endl;
+                if (r - l == t.size())
+                {
+
+                    res.push_back(l);
+                }
                 char cc = s[l];
-                if(needs.count(cc)){
+                if (needs.count(cc))
+                {
                     windows[cc]--;
-                    if(windows[cc] < needs[cc]){
+                    if (windows[cc] < needs[cc])
+                    {
+                        // cout << cc << endl;
                         match--;
                     }
                 }
@@ -41,6 +55,5 @@ public:
             /* code */
         }
         return res;
-        
     }
 };
